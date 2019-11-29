@@ -46,11 +46,10 @@
 	<nav>
 		<ul class="cd-primary-nav">
 			<li><a href="index.html" class="animated_link">Home</a></li>
-			<li><a href="quotation-wizard-version.html" class="animated_link">Quote Version</a></li>
-			<li><a href="review-wizard-version.html" class="animated_link">Review Version</a></li>
-			<li><a href="registration-wizard-version.html" class="animated_link">Registration Version</a></li>
+			<li><a href="archives.html" class="animated_link">Archives</a></li>
+			<li><a href="tips.html" class="animated_link">Tips</a></li>
 			<li><a href="about.html" class="animated_link">About Us</a></li>
-			<li><a href="contacts.html" class="animated_link">Contact Us</a></li>
+			<li><a href="community.html" class="animated_link">About *All* of Us</a></li>
 		</ul>
 	</nav>
 	<!-- /menu -->
@@ -71,12 +70,11 @@
 					<!-- /social -->
 					<div>
 						<figure><img src="img/info_graphic_2.svg" alt="" class="img-fluid"></figure>
-						<h2>Registration Wizard</h2>
+						<h2>Explore the Archives</h2>
 						<p>Tation argumentum et usu, dicit viderer evertitur te has. Eu dictas concludaturque usu, facete detracto patrioque an per, lucilius pertinacia eu vel. Adhuc invidunt duo ex. Eu tantas dolorum ullamcorper qui.</p>
-						<a href="#0" class="btn_1 rounded">Purchase this template</a>
-						<a href="#start" class="btn_1 rounded mobile_btn">Start Now!</a>
+						<a href="#0" class="btn_1 rounded">Share!</a>
 					</div>
-					<div class="copy">© 2018 Wilio</div>
+					<div class="copy">© 2019 Abhi Nemani</div>
 				</div>
 				<!-- /content-left-wrapper -->
 			</div>
@@ -85,88 +83,29 @@
 			<div class="col-lg-6 content-right" id="start">
 				<div id="wizard_container">
 					<div id="top-wizard">
-							<div id="progressbar"></div>
-						</div>
+						
 						<!-- /top-wizard -->
 						<form id="wrapped" method="POST">
 							<input id="website" name="website" type="text" value="">
 							<!-- Leave for security protection, read docs for details -->
-							<div id="middle-wizard">
-								<div class="step">
-									<h3 class="main_question"><strong>1/3</strong>Please fill with your details</h3>
-									<div class="form-group">
-										<input type="text" name="first_name" class="form-control required" placeholder="First Name" onchange="getVals(this, 'first_name');">
+				
+									<h3 class="main_question">Past Newsletters</h3>
+										<style type="text/css">
+											<!--
+											.display_archive {font-family: inherit; font-size: 16px;}
+											.campaign {line-height: 150%; margin: 5px;}
+											//-->
+											</style>
+											<script language="javascript" src="https://gmail.us4.list-manage.com/generate-js/?u=8b0a6fcff3240da989198b6d9&fid=22519&show=10" type="text/javascript"></script>
+
 									</div>
-									<div class="form-group">
-										<input type="text" name="last_name" class="form-control required" placeholder="Last Name" onchange="getVals(this, 'last_name');">
-									</div>
-									<div class="form-group">
-										<input type="email" name="email" class="form-control required" placeholder="Your Email" onchange="getVals(this, 'email');">
-									</div>
-									<div class="form-group">
-										<div class="styled-select clearfix">
-											<select class="wide required" name="country" onchange="getVals(this, 'country');">
-												<option value="">Your Country</option>
-												<option value="Europe">Europe</option>
-												<option value="Asia">Asia</option>
-												<option value="North America">North America</option>
-												<option value="South America">South America</option>
-												<option value="Oceania">Oceania</option>                             
-											</select>
-										</div>
-									</div>
-									<div class="form-group terms">
-										<label class="container_check">Please accept our <a href="#" data-toggle="modal" data-target="#terms-txt">Terms and conditions</a>
-											<input type="checkbox" name="terms" value="Yes" class="required">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-								</div>
+							
+							
 								<!-- /step-->
-								<div class="step">
-									<h3 class="main_question"><strong>2/3</strong>Plase provide your account details</h3>
-									<div class="form-group">
-										<input type="text" name="user_name" class="form-control required" placeholder="User name" onchange="getVals(this, 'user_name');">
-									</div>
-									<div class="form-group">
-										<input class="form-control required" type="password" id="password1" name="password1" placeholder="Password" onchange="getVals(this, 'password');">
-									</div>
-									<div class="form-group">
-										<input class="form-control required" type="password" id="password2" name="password2" placeholder="Confirm Password">
-									</div>
-									<div id="pass-info" class="clearfix"></div>
-								</div>
-								<!-- /step-->
-								<div class="submit step">
-									<h3 class="main_question"><strong>3/3</strong>Summary</h3>
-									<div class="summary">
-										<ul>
-											<li><strong>1</strong>
-												<h5>Personal Details</h5>
-												<ul>
-													<li><label>First Name</label>: <span id="first_name"></span></li>
-													<li><label>Last Name</label>: <span id="last_name"></span></li>
-													<li><label>Email</label>: <span id="email"></span></li>
-													<li><label>Country</label>: <span id="country"></span></li>
-												</ul>
-											</li>
-											<li><strong>2</strong>
-												<h5>Account Details</h5>
-												<ul>
-													<li><label>User Name</label>: <span id="user_name"></span></li>
-													<li><label>Password</label>: <span id="password"></span></li>
-												</ul>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<!-- /step-->
-							</div>
+								
 							<!-- /middle-wizard -->
 							<div id="bottom-wizard">
-								<button type="button" name="backward" class="backward">Prev</button>
-								<button type="button" name="forward" class="forward">Next</button>
-								<button type="submit" name="process" class="submit">Submit</button>
+								<button href="/index.html" type="submit" class="submit">Subscribe</button>
 							</div>
 							<!-- /bottom-wizard -->
 						</form>
@@ -223,7 +162,6 @@
 	<script src="js/pw_strenght.js"></script>
 
 	<!-- Wizard script -->
-	<script src="js/registration_func.js"></script>
 
 </body>
 </html>
