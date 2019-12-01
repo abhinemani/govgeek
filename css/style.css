@@ -603,7 +603,6 @@ button[disabled] {
 }
 
 button.submit:before {
-  content: "\4e";
   font-family: 'ElegantIcons';
   position: absolute;
   top: 8px;
