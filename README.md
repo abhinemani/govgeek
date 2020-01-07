@@ -1,7 +1,7 @@
 # govgeek
 
 ## Basically just a listserv. (For now.)
-There's a lot of noise in this "space" — AI, big data, sensors, automation — but not too much clarity. What's working, and what's not. Who know's what they are talking about and who doesn't? I'd argue that we were blessed years ago with a number of foundation- or corporate-backed writers and editors taking up the mantle of narrating our unique arena of public-minded technology. But things change, and we have a hole to fill.
+There's a lot of noise in this space — AI, big data, sensors, automation — but not too much clarity. What's working, and what's not. Who know's what they are talking about and who doesn't? I'd argue that we were blessed years ago with a number of foundation- or corporate-backed writers and editors taking up the mantle of narrating our unique arena of public-minded technology. But things change, and we have a hole to fill.
 
 We'll start here by tagging all the most popular or controversial issues (eg articles, essays, etc) so you won't miss them, and adding a bit of context and commentary when we can. Can you trust me? Maybe. I've got about a decade's experience in the field. But anyone masquerading as an expert is just that: an actor. Things are moving too fast, and every situation is too different. You can at best be the jack of all and the master of none, or at worst, an empty hat.
 
